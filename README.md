@@ -1,4 +1,4 @@
-# [Kaleidoscope](https://anemy.github.io/kaleidoscope) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/stuharvey/kaleidoscope.js/blob/master/LICENSE)
+# [Kaleidoscope](https://stuharvey.github.io/kaleidoscope.js) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/stuharvey/kaleidoscope.js/blob/master/LICENSE)
 
 Kaleidoscope is a configurable image manipulating tool.
 
