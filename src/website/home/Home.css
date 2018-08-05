@@ -1,0 +1,67 @@
+.klyd-home {
+  color: #333;
+  text-align: center;
+  height: 100vh;
+}
+
+.klyd-home-page {
+  margin-top: 40px;
+}
+
+.klyd-logo-image {
+  height: 160px;
+}
+
+.klyd-demo-link-container {
+  margin-top: 40px;
+  position: relative;
+}
+
+.klyd-import-image-example {
+  margin-top: 50px;
+}
+
+.klyd-demo-link {
+  background-color: #15b7b9;
+  border: 1px solid #15b7b9;
+  border-radius: 3px;
+  color: white;
+  font-size: 22px;
+  padding: 14px 20px;
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  animation: fadein 2s;
+
+  text-decoration: none;
+  transition: all 200ms;
+}
+.klyd-demo-link:hover {
+  box-shadow: 0 0 20px rgba(39, 158, 160, 0.6);
+  cursor: pointer;
+}
+.klyd-demo-link:active {
+  box-shadow: 0 0 20px rgba(21, 183, 185, 0.35);
+  cursor: pointer;
+}
+
+.klyd-home-desc {
+  font-size: 16px;
+  color: #707070;
+  line-height: 24px;
+  margin: auto;
+  margin-top: 16px;
+  max-width: 400px;
+}
+
+.klyd-example-table {
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  max-width: 600px;
+}
+
+.klyd-image-example-input {
+  width: 160px;
+}

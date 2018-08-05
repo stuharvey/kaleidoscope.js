@@ -1,0 +1,45 @@
+.klyd-top-nav-bar {
+  background-color: #15b7b9;
+  position: relative;
+  text-align: right;
+  width: 100%;
+}
+
+.klyd-top-nav-link {
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 30px;
+  padding: 24px 0px;
+  position: relative;
+  text-decoration: none;
+}
+
+.klyd-top-nav-link:last-child {
+  margin-right: 40px;
+}
+
+.klyd-top-nav-link:hover {
+  cursor: pointer;
+}
+
+.klyd-top-nav-link:before {
+  background-color: #fff;
+  bottom: 18px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  transition: all 0.1s ease-in-out 0s;
+  -webkit-transition: all 0.1s ease-in-out 0s;
+  visibility: hidden;
+  width: 100%;
+}
+
+.klyd-top-nav-link:hover:before {
+  transform: scaleX(1);
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+}
