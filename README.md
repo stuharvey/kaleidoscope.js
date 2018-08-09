@@ -8,13 +8,13 @@ Kaleidoscope is a configurable image manipulating tool.
 
 Install svgurt using [NPM](https://nodejs.org/en/download), and add it to your package.json dependencies:
 
-`npm install svgurt --save`
+`COMING SOON TO NPM!`
 
-Svgurt can then be used from the command line or programmatically as a module.
+Kaleidoscope can then be used from the command line or programmatically as a module.
 
-### Using Svgurt Programatically
+### Using Kaleidoscope Programatically
 
-Svgurt can be used with node js.
+Kaleidoscope can be used with node js.
 
 ES5 module:
 

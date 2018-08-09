@@ -1,5 +1,3 @@
-const createRandomSeed = require('./utils/random').createRandomSeed;
-
 module.exports = {
   // Image Controls
   blur: {
@@ -41,8 +39,5 @@ module.exports = {
   },
   fieldRatioY: {
     default: 0.01
-  },
-  fieldRandomSeed: {
-    default: createRandomSeed()
   }
 };
