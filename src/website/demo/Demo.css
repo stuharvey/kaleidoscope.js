@@ -65,26 +65,20 @@ input[type="file"] {
 }
 
 .klyd-demo-panel {
-  border: 1px solid #eee;
-  height: 50vh;
+  height: 100vh;
   overflow: auto;
-}
-
-@media only screen and (min-width: 568px) {
-  .klyd-demo-panel {
-    height: 100vh;
-  }
+  text-align: center;
 }
 
 /* For mobile phones: */
 .klyd-dat-gui-container {
   position: absolute;
   right: 10px;
-  top: 164px;
+  top: 133px;
 }
 
 @media only screen and (min-width: 470px) {
   .klyd-dat-gui-container {
-    top: 99px;
+    top: 67px;
   }
 }

@@ -24,7 +24,7 @@ function kaleidoscopeImage(
   }
 }
 
-// This returnsa  new image data manipulated according to the passed settings.
+// This returns a new image data manipulated according to the passed settings.
 module.exports = function(imageData, imageSettings, width, height) {
   kaleidoscopeImage(imageData, imageSettings, width, height);
 };
