@@ -4,19 +4,22 @@ function kaleidoscopeImage(
   width,
   height
 ) {
-  for (let i = 0; i < height * 4; i += 4) {
-    for (let k = 0; k < width * 4; k += 4) {
+  const originalImageData = [...imageData.data];
+
+  for (let i = 0; i < height; i ++) {
+    for (let k = 0; k < width; k ++) {
       if (k > width / 2) {
         break;
       }
 
-      const pixelPos = (k * i) + i;
-      const flipPixelPos = (k * i) + (width - i);
+      const pixelPos = ((i * width) + k) * 4;
+      // const flipPixelPos = (width * height * 4) - pixelPos;
+      const flipPixelPos = (width * height * 4) - pixelPos;
 
-      imageData.data[pixelPos] = imageData.data[flipPixelPos];
-      imageData.data[pixelPos + 1] = imageData.data[flipPixelPos + 1];
-      imageData.data[pixelPos + 2] = imageData.data[flipPixelPos + 2];
-      imageData.data[pixelPos + 3] = imageData.data[flipPixelPos + 3];
+      imageData.data[pixelPos] = originalImageData[flipPixelPos];
+      imageData.data[pixelPos + 1] = originalImageData[flipPixelPos + 1];
+      imageData.data[pixelPos + 2] = originalImageData[flipPixelPos + 2];
+      imageData.data[pixelPos + 3] = originalImageData[flipPixelPos + 3];
     }
   }
 }
